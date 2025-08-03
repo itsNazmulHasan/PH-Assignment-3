@@ -24,3 +24,42 @@ else if (money >= 10000)
 else  {
     console.log("Chocolate");
     }
+
+
+    /** Problem -03 ( Medicine Planner ) */
+var lastDay = 3 ;
+//write your code here
+
+for ( var day = 1 ; day <= lastDay ; day++)
+{
+    if ( day %3 === 0)
+    {
+        console.log(day + " - medicine "
+        );
+        
+    } else {
+        console.log(day + " - rest ");
+        
+    }
+}
+
+
+
+/** Problem 04 - (Delete / Store) */
+var fileName= "slipdf.txt";
+//write your code here
+
+if (fileName.startsWith("#") ||
+fileName.endsWith(".pdf") ||
+fileName.endsWith(".docx")
+
+){
+    console.log( " Store ");
+    
+}else {
+    console.log(" Delete ");
+    
+}
+
+
+
