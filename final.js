@@ -7,6 +7,8 @@ var eachSonsShare = area/2;
 console.log(eachSonsShare);
 
 
+
+
 /** Problem -02 ( Cycle or Laptop ) */
 var money =10000;
 //write your code here
@@ -27,7 +29,7 @@ else  {
 
 
     /** Problem -03 ( Medicine Planner ) */
-var lastDay = 3 ;
+var lastDay = 11 ;
 //write your code here
 
 for ( var day = 1 ; day <= lastDay ; day++)
@@ -50,8 +52,8 @@ var fileName= "slipdf.txt";
 //write your code here
 
 if (fileName.startsWith("#") ||
-fileName.endsWith(".pdf") ||
-fileName.endsWith(".docx")
+fileName.endsWith("pdf") ||
+fileName.endsWith("docx")
 
 ){
     console.log( " Store ");
@@ -69,6 +71,21 @@ var email = student.name + student.roll + "." + student.department +"@ph.ac.bd "
 
 console.log(email);
 
+
+
+
+/** Problem 06 :  (Current Salary )  */
+var experience = 30;
+var startingSalary = 45000;
+//write your code here
+
+var salaryNow = startingSalary;
+
+for ( var year = 1; year <= experience; year++)
+{
+    salaryNow += salaryNow * 0.05;
+}
+console.log(salaryNow.toFixed(2));
 
 
 
